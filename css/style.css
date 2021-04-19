@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+div#wrap{
+/*    border: 1px solid #000;*/
+    width: 200px;
+    margin: 0 auto;
+}
+
+div.page{
+    text-align: center;
+    margin: 40px 4px;
+}
+
+div.page button{
+    color: #fff;
+    border: 1px solid #000;
+    background-color: #465a48;
+    width: 24px;
+    height: 19px;
+    cursor: pointer;
+}
+
+.page span.page_n{
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.vis>div{
+position: absolute;
+}
+
+.vis>div:not(:first-child){
+    display: none;
+}
+
+
+.vis img{
+    border: 2px solid #000;
+}
